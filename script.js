@@ -62,7 +62,7 @@ function spinWheel() {
         // Show warning message after 3 seconds
         setTimeout(() => {
             alert("🚨 WARNING: You are Hacked! Change your password immediately! 🚨");
-        }, 3000);
+        }, 1500);
         
     }, spinTime);
 }
