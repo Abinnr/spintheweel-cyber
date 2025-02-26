@@ -3,11 +3,11 @@ const ctx = canvas.getContext("2d");
 const spinButton = document.getElementById("spinButton");
 
 const prizes = [
-    "🏆 Free LinkedIn Premium",
-    "👕 Cyber T-Shirt",
-    "☕ Cyber Coffee Cup",
+    "🏆 LinkedIn Premium",
+    "👕 T-Shirt",
+    "☕ Coffee Cup",
     "🥤 2-Litre 7UP",
-    "🍫 Dairy Milk Silk"
+    "🍫 Silk Dairy Milk"
 ];
 
 let angle = 0;
@@ -61,7 +61,7 @@ function spinWheel() {
         if (selectedPrize === "🏆 Free LinkedIn Premium") {
             setTimeout(() => {
                 alert("🚨 WARNING: You are Hacked! Change your password immediately! 🚨");
-            }, 1000);
+            }, 300);
         }
     }, spinTime);
 }
